@@ -34,7 +34,7 @@ function updateTimer() {
 
   document.getElementById("timer").textContent = isCountdown
     ? `${formattedTime}`
-    : `経過 ${formattedTime}`;
+    : `${formattedTime}`;
 }
 
 // タイマーの更新を毎秒行う
